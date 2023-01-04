@@ -1,0 +1,56 @@
+
+table users{
+  id int [pk,increment]
+  name varchar
+  email varchar
+  pass varchar
+  contact varchar
+  address varchar
+  country varchar
+  postcode varchar
+  region varchar
+  status varchar
+}
+
+table posts{
+  id int [pk,increment]
+  name varchar
+  pet_type varchar
+  status varchar
+  gender varchar
+  breed varchar
+  age varchar
+  color varchar
+  region varchar
+  postcode varchar
+  date_loss varchar
+  where_loss varchar
+  identification_marks varchar
+  tagged varchar
+  microchipped varchar
+  tattoed varchar
+  other varchar
+  image varchar
+  active_status varchar
+  is_featured int
+  user_id int
+  date varchar
+}
+
+
+
+table admins{
+  id int [pk,increment]
+  user varchar
+  pass varchar
+  company varchar
+}
+
+table breeds{
+  id int [pk,increment]
+  des varchar
+}
+
+Ref: "posts"."user_id" < "users"."id" [delete: cascade, update: cascade]
+
+
