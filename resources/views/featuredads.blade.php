@@ -11,7 +11,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">Featured Ads</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">My Ads</li>
 				
               </ol>
@@ -31,7 +31,7 @@
               <div class="sidebar-box">
                 <div class="user">
                   <figure>
-                    <a href="#"><img src="assets/img/author/img1.jpg" alt=""></a>
+                    <a href="javascript:void(0)"><img src="assets/img/author/img1.jpg" alt=""></a>
                   </figure>
                   <div class="usercontent">
                     <h3>User Name's</h3>
@@ -149,9 +149,9 @@
                         </td>
                         <td data-title="Action">
                           <div class="btns-actions">
-                            <a class="btn-action btn-view" href="#"><i class="lni-eye"></i></a>
-                            <a class="btn-action btn-edit" href="#"><i class="lni-pencil"></i></a>
-                            <a class="btn-action btn-delete" href="#"><i class="lni-trash"></i></a>
+                            <a class="btn-action btn-view" href="javascript:void(0)"><i class="lni-eye"></i></a>
+                            <a class="btn-action btn-edit" href="javascript:void(0)"><i class="lni-pencil"></i></a>
+                            <a class="btn-action btn-delete" href="javascript:void(0)"><i class="lni-trash"></i></a>
                           </div>
                         </td>
                       </tr>

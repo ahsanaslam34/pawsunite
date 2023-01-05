@@ -71,14 +71,14 @@ jQuery('body').append('' +
 		'<div>' + 
 			'<h3>Color Palette</h3>' +
 			'<ul class="colors">' +
-				'<li><a class="color1 active" href="#"></a></li>' +
-				'<li><a class="color2" href="#"></a></li>' +
-				'<li><a class="color3" href="#"></a></li>' +
-				'<li><a class="color4" href="#"></a></li>' +
-				'<li><a class="color5" href="#"></a></li>' +
-				'<li><a class="color6" href="#"></a></li>' +
+				'<li><a class="color1 active" href="javascript:void(0)"></a></li>' +
+				'<li><a class="color2" href="javascript:void(0)"></a></li>' +
+				'<li><a class="color3" href="javascript:void(0)"></a></li>' +
+				'<li><a class="color4" href="javascript:void(0)"></a></li>' +
+				'<li><a class="color5" href="javascript:void(0)"></a></li>' +
+				'<li><a class="color6" href="javascript:void(0)"></a></li>' +
 			'</ul>' +
 		'</div>' +
-		'<div class="bottom"> <a href="#" class="settings"><i class="lni-cog"></i></a> </div>' +
+		'<div class="bottom"> <a href="javascript:void(0)" class="settings"><i class="lni-cog"></i></a> </div>' +
 	'</div>' +
 '');

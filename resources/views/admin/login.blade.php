@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dog Lost Admin</title>
+    <title>Paws Unite Admin</title>
     <base href="{{ \URL::to('/') }}">
     <!-- Favicon -->
     <link rel="shortcut icon" href="dashboard_assets/assets/images/favicon.ico" >
@@ -40,7 +40,7 @@
                                
                                 <div class="my-5 text-center text-lg-start">
                                     <h1 class="display-8">Sign In</h1>
-                                    <p class="text-muted">Sign in to Dog Lost Admin Dashboard</p>
+                                    <p class="text-muted">Sign in to Paws Unite Admin Dashboard</p>
                                 </div>
                                 @if(Session::has('fail'))
                                     <div class="alert alert-danger">{{Session::get('fail')}}</div>
@@ -72,7 +72,7 @@
                             <img width="400" src="dashboard_assets/assets/images/logo.png" alt="logo">
                         </div>
                         <div>
-                            <h3 class="fw-bold">Welcome to Dog Lost!</h3>
+                            <h3 class="fw-bold">Welcome to Paws Unite!</h3>
                             <p class="lead my-5">Please use the right User Name and Password.
                                 <br> if it's incorrect then you will be blocked.</p>
                            

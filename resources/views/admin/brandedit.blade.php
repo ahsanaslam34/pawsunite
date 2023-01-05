@@ -8,7 +8,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <i class="bi bi-globe2 small me-2"></i> Dashboard
                         </a>
                     </li>

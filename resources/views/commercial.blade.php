@@ -11,7 +11,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">Payment</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">Payment</li>
 				
               </ol>
@@ -31,7 +31,7 @@
               <div class="sidebar-box">
                 <div class="user">
                   <figure>
-                    <a href="#"><img src="assets/img/author/img1.jpg" alt=""></a>
+                    <a href="javascript:void(0)"><img src="assets/img/author/img1.jpg" alt=""></a>
                   </figure>
                   <div class="usercontent">
                     <h3>user name's</h3>

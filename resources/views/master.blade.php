@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Dog Lost</title>
+    <title>Paws Unite</title>
     <base href="{{ \URL::to('/') }}">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
     <!-- Bootstrap CSS -->
@@ -57,7 +57,7 @@
                 
                 @endif
                   @if(Session::has('dogLossProjectUser'))
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lni-user"></i>My Account</a>
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lni-user"></i>My Account</a>
 
 
                 <div class="dropdown-menu">
@@ -71,7 +71,7 @@
               </li>
             </ul>
              <a class="tg-btn" href="{{Route('ads.index')}}">
-              <i class="lni-pencil-alt"></i>Post
+              <i class="lni-pencil-alt"></i>Posts
             </a>
           </div>
         </div>
@@ -87,7 +87,7 @@
         <li><a href="login">Log In</a></li>
         <li><a href="register">Sign up</a></li>
         @endif
-        <li><a href="adsPost">Post</a></li>
+        <li><a href="adsPost">Posts</a></li>
         </ul>
         <!-- Mobile Menu End -->
 
@@ -108,40 +108,26 @@
               <div class="widget">
                 <h3 class="footer-logo"><img src="assets/img/logo.png" alt=""></h3>
                 <div class="textwidget">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis. Etiam euismod ornare elementum. Sed ex est, consectetur eget facilisis sed, auctor ut purus.</p>
+                  
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Top Catergories</h3>
-                
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Help & Support</h3>
-                <ul class="menu">
-                  <li><a href="#">Live Chat</a></li>
-                  <li><a href="faq">FAQ</a></li>
-                  <li><a href="privacy">Purchase Protection</a></li>
-                
-                  <li><a href="contact">Contact us</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">sd</h3>
-                <p class="text-sub">We have over 5 years of experience Our suppoer avalable to help you 24 hours a day, seven days week</p>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12"> <div
+            class="widget"> <h3 class="block-title">Help & Support</h3> <ul
+            class="menu"> <li><a href="javascript:void(0)">Privacy</a></li> </ul> </div>
+            </div> <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6
+            col-mb-12"> <div class="widget">
+                <!-- <h3 class="block-title"></h3> -->
+                <!-- <p class="text-sub">We have over 5 years of experience Our suppoer avalable to help you 24 hours a day, seven days week</p> -->
                <br>
                <br>
                <br>
                 <ul class="footer-social">
-                  <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
-                  <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                  <li><a class="facebook" href="javascript:void(0)"><i class="lni-facebook-filled"></i></a></li>
+                  <li><a class="twitter" href="javascript:void(0)"><i class="lni-twitter-filled"></i></a></li>
+                  <li><a class="linkedin" href="javascript:void(0)"><i class="lni-linkedin-fill"></i></a></li>
+                  <li><a class="google-plus" href="javascript:void(0)"><i class="lni-google-plus"></i></a></li>
                 </ul>          
               </div>
             </div>
@@ -156,21 +142,21 @@
           <div class="row">
             <div class="col-md-12">
               <div class="site-info float-left">
-                <p>All copyrights reserved &copy; 2020 - Dog Lost - Designed by <a href="https://upbound.studio/" rel="nofollow">Upbound Studio</a></p>
+                <p>All copyrights reserved &copy; 2020 - Paws Unite - Designed by <a target="_blank" href="https://upbound.studio/" rel="nofollow">Upbound Studio</a></p>
               </div>              
               <div class="float-right">  
                 <ul class="bottom-card">
                   <li>
-                      <a href="#"><img src="assets/img/footer/card1.jpg" alt="card"></a>
+                      <a href="javascript:void(0)"><img src="assets/img/footer/card1.jpg" alt="card"></a>
                   </li>
                   <li>
-                      <a href="#"><img src="assets/img/footer/card2.jpg" alt="card"></a>
+                      <a href="javascript:void(0)"><img src="assets/img/footer/card2.jpg" alt="card"></a>
                   </li>
                   <li>
-                      <a href="#"><img src="assets/img/footer/card3.jpg" alt="card"></a>
+                      <a href="javascript:void(0)"><img src="assets/img/footer/card3.jpg" alt="card"></a>
                   </li>
                   <li>
-                      <a href="#"><img src="assets/img/footer/card4.jpg" alt="card"></a>
+                      <a href="javascript:void(0)"><img src="assets/img/footer/card4.jpg" alt="card"></a>
                   </li>
                 </ul>
               </div>
@@ -184,7 +170,7 @@
     <!-- Footer Section End --> 
 
     <!-- Go to Top Link -->
-    <a href="#" class="back-to-top">
+    <a href="javascript:void(0)" class="back-to-top">
       <i class="lni-chevron-up"></i>
     </a>
 

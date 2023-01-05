@@ -5,7 +5,7 @@
 
        
 <div class="dashboard-box">
-                  <h2 class="dashbord-title">My Post</h2>
+                  <h2 class="dashbord-title">My Posts</h2>
                 </div>
                 <div class="dashboard-wrapper">
                  <nav class="nav-table">
@@ -14,7 +14,7 @@
                         <li ><a href="{{Route('userAds.active')}}">Active ({{count($activeArr)}})</a></li>
               <li><a href="{{Route('userAds.inactive')}}">Inactive ({{count($inactiveArr)}})</a></li>
                     </ul>
-                  <a href="{{Route('ads.index')}}" class="btn btn-common float-right">Create Post</a>
+                  <a href="{{Route('ads.index')}}" class="btn btn-common float-right">Create Posts</a>
                   </nav>
                   <table class="table table-responsive dashboardtable tablemyads">
                     <thead>
@@ -25,7 +25,7 @@
                         <th>Age</th>
                         <th>Status</th>
                         <th>Gender</th>
-                        <th>Date</th>
+                        <th>Date Lost</th>
                         <th>Action</th>
                       </tr>
                     </thead>

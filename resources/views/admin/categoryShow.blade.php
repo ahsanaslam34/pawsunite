@@ -18,7 +18,7 @@
 
                                     <div class="d-flex">
                                         <div class="dropdown ms-auto">
-                                            <a href="#" data-bs-toggle="dropdown"
+                                            <a href="javascript:void(0)" data-bs-toggle="dropdown"
                                                class="btn btn-floating"
                                                aria-haspopup="true" aria-expanded="false">
                                                 <i class="bi bi-three-dots"></i>

@@ -8,7 +8,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <i class="bi bi-globe2 small me-2"></i> Dashboard
                         </a>
                     </li>
@@ -67,7 +67,7 @@
                 <td class="text-end">
                     <div class="d-flex">
                         <div class="dropdown ms-auto">
-                            <a href="#" data-bs-toggle="dropdown"
+                            <a href="javascript:void(0)" data-bs-toggle="dropdown"
                                class="btn btn-floating"
                                aria-haspopup="true" aria-expanded="false">
                                 <i class="bi bi-three-dots"></i>

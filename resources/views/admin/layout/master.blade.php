@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dog Lost Admin</title>
+    <title>Paws Unite Admin</title>
     <base href="{{ \URL::to('/') }}">
 
     <!-- Favicon -->
@@ -120,7 +120,7 @@
     <!-- header -->
     <div class="header">
     <div class="menu-toggle-btn"> <!-- Menu close button for mobile devices -->
-        <a href="#">
+        <a href="javascript:void(0)">
             <i class="bi bi-list"></i>
         </a>
     </div>
@@ -135,7 +135,7 @@
     <!-- Header mobile buttons -->
     <div class="header-mobile-buttons">
        
-        <a href="#" class="actions-btn">
+        <a href="javascript:void(0)" class="actions-btn">
             <i class="bi bi-three-dots"></i>
         </a>
     </div>

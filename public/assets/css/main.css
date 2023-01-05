@@ -781,7 +781,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   .navbar-brand {
     position: absolute;
-    padding: 0px 15px;
+    padding: 15px;
     top: 0;
   }
   .navbar-brand img {
@@ -5032,4 +5032,8 @@ footer .menu li a:hover {
 
 .width-100{
     width: 100%;
+}
+
+img.img-fluid{
+  width: 100%;
 }

@@ -10,7 +10,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">{{$postName}}</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">Details</li>
               </ol>
             </div>
@@ -68,21 +68,21 @@
               <div class="ads-details-info">
                 <h2>{{$productArr->name}}</h2>
                 <div class="details-meta">
-                  <span><a href="#"><i class="lni-alarm-clock"></i> {{$productArr->date_loss}}</a></span>
-                <!-- <span><a href="#"><i class="lni-map-marker"></i>  New York</a></span> -->
-                  <!-- <span><a href="#"><i class="lni-eye"></i> 299 View</a></span> -->
+                  <span><a href="javascript:void(0)"><i class="lni-alarm-clock"></i> {{$productArr->date_loss}}</a></span>
+                <!-- <span><a href="javascript:void(0)"><i class="lni-map-marker"></i>  New York</a></span> -->
+                  <!-- <span><a href="javascript:void(0)"><i class="lni-eye"></i> 299 View</a></span> -->
                 </div>
                 <!-- form start -->
                 <!-- form end -->
               </div>
              
                <div class="ads-btn">
-                 <a href="#" class="btn btn-common btn-reply"><i class="lni-envelope"></i>  @if($productArr->user_id)
+                 <a href="javascript:void(0)" class="btn btn-common btn-reply"><i class="lni-envelope"></i>  @if($productArr->user_id)
                     {{$productArr->getUsers->email}}
                   @endif
                  </a>
           
-                <a href="#" class="btn btn-common"><i class="lni-phone-handset"></i> @if($productArr->user_id)
+                <a href="javascript:void(0)" class="btn btn-common"><i class="lni-phone-handset"></i> @if($productArr->user_id)
                     {{$productArr->getUsers->contact}}
                   @endif</a>
               </div>
@@ -160,7 +160,7 @@
             </figure>
             <div class="feature-content">
               <div class="product">
-                <a href="#"><i class="lni-folder"></i> 
+                <a href="javascript:void(0)"><i class="lni-folder"></i> 
                  
                 </a>
               </div>
@@ -168,16 +168,16 @@
               <span>Lost: {{$post->date_loss}}</span>
               <ul class="address">
                 <li>
-                  <a href="#"><i class="lni-map-marker"></i>Dog Id: {{$post->id}}</a>
+                  <a href="javascript:void(0)"><i class="lni-map-marker"></i>Dog Id: {{$post->id}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-alarm-clock"></i> {{$post->status}}</a>
+                  <a href="javascript:void(0)"><i class="lni-alarm-clock"></i> {{$post->status}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-user"></i> {{$post->gender}}</a>
+                  <a href="javascript:void(0)"><i class="lni-user"></i> {{$post->gender}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-package"></i> Age: {{$post->age}}</a>
+                  <a href="javascript:void(0)"><i class="lni-package"></i> Age: {{$post->age}}</a>
                 </li>
               </ul>
               

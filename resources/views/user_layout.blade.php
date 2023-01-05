@@ -11,8 +11,8 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">Dashboard</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
-                <li class="current">My Ads</li>
+                <li><a href="javascript:void(0)">Home /</a></li>
+                <li class="current">Posts</li>
 				
               </ol>
             </div>
@@ -57,7 +57,7 @@
                     <li>
                     <a class="{{ request()->is('myac') ? 'active' : ''}}{{ request()->is('user/ads/active') ? 'active' : ''}}{{ request()->is('user/ads/inactive') ? 'active' : ''}}" href="myac">
                         <i class="lni-layers"></i>
-                        <span>Post</span>
+                        <span>Posts</span>
                       </a>
                     </li>
                     

@@ -58,7 +58,7 @@ function getCatHtml($arr,$arr_id){
                 if ($i==4) {
               
 
-		            echo '<li class="mega-menu-item"><a href="#" class="mega-item-title"></a>
+		            echo '<li class="mega-menu-item"><a href="javascript:void(0)" class="mega-item-title"></a>
                                                 <ul>'.$fiveData.'</ul>
                                             </li>';
 		            $fiveData="";
@@ -67,7 +67,7 @@ function getCatHtml($arr,$arr_id){
 		if ($i>=5 && $i<=9) {
                 $fiveData.='<li><a href="product?id='.$arr_id[$i].'">'.$arr[$i].'</a></li>';
                 if ($i==9) {
-                	echo '<li class="mega-menu-item"><a href="#" class="mega-item-title"></a>
+                	echo '<li class="mega-menu-item"><a href="javascript:void(0)" class="mega-item-title"></a>
                                                 <ul>'.$fiveData.'</ul>
                                             </li>';
 		            $fiveData="";
@@ -78,7 +78,7 @@ function getCatHtml($arr,$arr_id){
 		if ($i>=10 && $i<=12) {
                 $fiveData.='<li><a href="product?id='.$arr_id[$i].'">'.$arr[$i].'</a></li>';
                 if ($i==12) {
-                	echo '<li class="mega-menu-item"><a href="#" class="mega-item-title"></a>
+                	echo '<li class="mega-menu-item"><a href="javascript:void(0)" class="mega-item-title"></a>
                                                 <ul>'.$fiveData.'</ul>
                                             </li>';
 		            $fiveData="";

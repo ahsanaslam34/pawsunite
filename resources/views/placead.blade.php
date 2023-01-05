@@ -13,7 +13,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">Pet Lost</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">Pet Lost</li>
 				
               </ol>

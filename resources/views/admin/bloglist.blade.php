@@ -8,7 +8,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <i class="bi bi-globe2 small me-2"></i> Dashboard
                         </a>
                     </li>
@@ -49,7 +49,7 @@
                 <td>{{$blog->date.' '.$blog->time}}</td>
                 <td>
                     <a href="{{Route('blog.edit',[$blog->id])}}" class="btn btn-primary btn-edit">Edit</a>
-                    <a href="#" class="btn btn-danger btn-delete">Delete</a>
+                    <a href="javascript:void(0)" class="btn btn-danger btn-delete">Delete</a>
                 </td>
             </tr>
             @endforeach

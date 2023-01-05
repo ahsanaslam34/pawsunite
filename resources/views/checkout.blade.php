@@ -27,7 +27,7 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Shop</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Checkout</li>
                     </ol>
                 </div><!-- End .container -->
@@ -115,8 +115,8 @@
                                             @foreach(session('cart') as $id => $details)
                                                 @php $total += $details['cartPrice'] * $details['cartQty'] @endphp  
 		                						<tr>
-		                							<td><a href="#">{{$details['cartName']}}</a></td>
-                                                    <td><a href="#">{{$details['cartQty']}}</a></td>
+		                							<td><a href="javascript:void(0)">{{$details['cartName']}}</a></td>
+                                                    <td><a href="javascript:void(0)">{{$details['cartQty']}}</a></td>
 		                							<td>{{$currency}} <?php echo $details['cartQty']*$details['cartPrice']?>/-</td>
 		                						</tr>
                                                 @endforeach

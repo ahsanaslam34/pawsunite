@@ -12,7 +12,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">{{$postName}}</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">{{$postName}}</li>
                
               </ol>
@@ -51,7 +51,7 @@
                 		<a class="nav-link" href="{{Route('ads.page',[$adsSlugs])}}">{{$category->des}}  </a>
                 		<ul class="submenu collapse">
                 		    @foreach ($category->submenus as $subCat)
-                		        <li><a class="nav-link" href="#">{{$subCat->des}}</a></li>
+                		        <li><a class="nav-link" href="javascript:void(0)">{{$subCat->des}}</a></li>
                 			@endforeach
                 		
                 		</ul>
@@ -164,19 +164,19 @@
                           <span>Last Updated: 4 hours ago</span>
                           <ul class="address">
                             <li>
-                              <a href="#"><i class="lni-map-marker"></i>Louis, Missouri, US</a>
+                              <a href="javascript:void(0)"><i class="lni-map-marker"></i>Louis, Missouri, US</a>
                             </li>
                             <li>
-                              <a href="#"><i class="lni-alarm-clock"></i> May 18, 2018</a>
+                              <a href="javascript:void(0)"><i class="lni-alarm-clock"></i> May 18, 2018</a>
                             </li>
                             
                             <li>
-                              <a href="#"><i class="lni-package"></i> Brand New</a>
+                              <a href="javascript:void(0)"><i class="lni-package"></i> Brand New</a>
                             </li>
                           </ul>
                           <div class="listing-bottom">
                             <h3 class="price float-left">{{$product->price}}</h3>
-                            <a href="#" class="btn-verified float-right"><i class="lni-check-box"></i> Verified Ad</a>
+                            <a href="javascript:void(0)" class="btn-verified float-right"><i class="lni-check-box"></i> Verified Ad</a>
                           </div>
                         </div>
                       </div>
@@ -192,10 +192,10 @@
           <!--   <div class="pagination-bar">
                <nav>
                 <ul class="pagination justify-content-center">
-                  <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  <li class="page-item"><a class="page-link active" href="javascript:void(0)">1</a></li>
+                  <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                  <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                  <li class="page-item"><a class="page-link" href="javascript:void(0)">Next</a></li>
                 </ul>
               </nav>
             </div> -->

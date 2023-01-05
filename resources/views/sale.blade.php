@@ -15,7 +15,7 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Shop</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Category Name</li>
                     </ol>
                 </div><!-- End .container -->
@@ -68,7 +68,7 @@
 
                                             <div class="product-body">
                                                 <div class="product-cat">
-                                                    <!-- <a href="#">Women</a> -->
+                                                    <!-- <a href="javascript:void(0)">Women</a> -->
                                                 </div><!-- End .product-cat -->
                                                 <h3 class="product-title"><a href="product.html">{{$product->pname}}</a></h3><!-- End .product-title -->
                                                 
@@ -122,16 +122,16 @@
                 			<nav aria-label="Page navigation">
 							    <ul class="pagination justify-content-center">
 							        <li class="page-item disabled">
-							            <a class="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
+							            <a class="page-link page-link-prev" href="javascript:void(0)" aria-label="Previous" tabindex="-1" aria-disabled="true">
 							                <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>Prev
 							            </a>
 							        </li>
-							        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
-							        <li class="page-item"><a class="page-link" href="#">2</a></li>
-							        <li class="page-item"><a class="page-link" href="#">3</a></li>
+							        <li class="page-item active" aria-current="page"><a class="page-link" href="javascript:void(0)">1</a></li>
+							        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+							        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
 							        <li class="page-item-total">of 6</li>
 							        <li class="page-item">
-							            <a class="page-link page-link-next" href="#" aria-label="Next">
+							            <a class="page-link page-link-next" href="javascript:void(0)" aria-label="Next">
 							                Next <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
 							            </a>
 							        </li>
@@ -142,7 +142,7 @@
                 			<div class="sidebar sidebar-shop">
                 				<div class="widget widget-clean">
                 					<label>Filters:</label>
-                					<a href="#" class="sidebar-filter-clear">Clean All</a>
+                					<a href="javascript:void(0)" class="sidebar-filter-clear">Clean All</a>
                 				</div><!-- End .widget widget-clean -->
 
                 				<div class="widget widget-collapsible">
@@ -185,7 +185,7 @@
                                 <div class="widget widget-banner-sidebar">
                                    
                                     <div class="banner-sidebar banner-overlay">
-                                        <a href="#">
+                                        <a href="javascript:void(0)">
                                             <img src="assets/assets/images/demos/demo-13/banners/banner-6.jpg" alt="banner">
                                         </a>
                                     </div><!-- End .banner-ad -->

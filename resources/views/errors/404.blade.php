@@ -11,7 +11,7 @@
             <div class="breadcrumb-wrapper">
               <h2 class="product-title">404</h2>
               <ol class="breadcrumb">
-                <li><a href="#">Home /</a></li>
+                <li><a href="javascript:void(0)">Home /</a></li>
                 <li class="current">404</li>
               </ol>
             </div>
@@ -36,7 +36,7 @@
                 <button class="btn btn-common btn-search" type="button">Search Now</button>
               </form>
               <div class="description">
-                <span>Or Goto <a href="#">Homepage</a></span>
+                <span>Or Goto <a href="javascript:void(0)">Homepage</a></span>
               </div>
             </div>
           </div>

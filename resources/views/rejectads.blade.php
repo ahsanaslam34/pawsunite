@@ -68,9 +68,9 @@
                         </td>
                         <td data-title="Action">
                           <div class="btns-actions">
-                            <a class="btn-action btn-view" href="#"><i class="lni-eye"></i></a>
-                            <a class="btn-action btn-edit" href="#"><i class="lni-pencil"></i></a>
-                            <a class="btn-action btn-delete" href="#"><i class="lni-trash"></i></a>
+                            <a class="btn-action btn-view" href="javascript:void(0)"><i class="lni-eye"></i></a>
+                            <a class="btn-action btn-edit" href="javascript:void(0)"><i class="lni-pencil"></i></a>
+                            <a class="btn-action btn-delete" href="javascript:void(0)"><i class="lni-trash"></i></a>
                           </div>
                         </td>
                       </tr>

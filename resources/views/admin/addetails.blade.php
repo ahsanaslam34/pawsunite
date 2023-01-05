@@ -11,7 +11,7 @@
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <i class="bi bi-globe2 small me-2"></i> Dashboard
                         </a>
                     </li>
@@ -107,7 +107,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                    <a href="#" class="btn btn-icon flex-shrink-0">
+                                    <a href="javascript:void(0)" class="btn btn-icon flex-shrink-0">
                                         <i class="bi bi-star-fill text-danger"></i> Featured
                                         
                                     </a>

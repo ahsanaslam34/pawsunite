@@ -13,7 +13,7 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About us</li>
                     </ol>
                 </div><!-- End .container -->
@@ -72,7 +72,7 @@
                                      @foreach($brandArr as $brand)
 
                                     <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
+                                        <a href="javascript:void(0)" class="brand">
                                              <img src="assets/img/brand/{{$brand->img}}" alt="{{$brand->title}}">
 
                                         </a>

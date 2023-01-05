@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-md-12 col-lg-12 col-xs-12 text-center">
               <div class="contents">
-                <h1 class="head-title">Pet Database Dog<span class="year">Lost</span></h1>
+                <h1 class="head-title">Pet Database Paws<span class="year">Unite</span></h1>
                 <p>Check your pet's and get unlimited free updates!</p>
                     <form class="search-form">
                 <div class="search-bar">
@@ -159,7 +159,7 @@
                 </div>
                 <div class="card-text">
                   <div class="float-left">
-                    <a href="#"><i class="lni-map-marker"></i> Date: {{$post->date_loss}} </a>
+                    <a href="javascript:void(0)"><i class="lni-map-marker"></i> Date: {{$post->date_loss}} </a>
                   </div>
                   
                 </div>
@@ -205,7 +205,7 @@
             </figure>
             <div class="feature-content">
               <div class="product">
-                <a href="#"><i class="lni-folder"></i> 
+                <a href="javascript:void(0)"><i class="lni-folder"></i> 
                  
                 </a>
               </div>
@@ -213,16 +213,16 @@
               <span>Lost: {{$post->date_loss}}</span>
               <ul class="address">
                 <li>
-                  <a href="#"><i class="lni-map-marker"></i>Dog Id: {{$post->id}}</a>
+                  <a href="javascript:void(0)"><i class="lni-map-marker"></i>Dog Id: {{$post->id}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-alarm-clock"></i> {{$post->status}}</a>
+                  <a href="javascript:void(0)"><i class="lni-alarm-clock"></i> {{$post->status}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-user"></i> {{$post->gender}}</a>
+                  <a href="javascript:void(0)"><i class="lni-user"></i> {{$post->gender}}</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-package"></i> Age: {{$post->age}}</a>
+                  <a href="javascript:void(0)"><i class="lni-package"></i> Age: {{$post->age}}</a>
                 </li>
               </ul>
               
@@ -234,7 +234,7 @@
       </div>
     </div>
     <div class="text-center">
-                  <button  type="submit" class="btn btn-common log-btn">Load more..</button>
+                  <!-- <button  type="submit" class="btn btn-common log-btn">Load more..</button> -->
         </div>
   </section>
   <!-- Featured Section End -->
@@ -248,7 +248,7 @@
         <div class="counter">
           <div class="icon"><i class="lni-layers"></i></div>
           <h2 class="counterUp">12090</h2>
-          <p>Regular Post</p>
+          <p>Regular Posts</p>
         </div>
       </div>
       <!-- Counter Item -->
