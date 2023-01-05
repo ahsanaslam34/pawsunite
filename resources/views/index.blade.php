@@ -98,10 +98,18 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 wow fadeIn" data-wow-delay="0.5s">
+       
         @if(count($postArr)>0)
         <h3 class="section-title">Found</h3>
         @else
-        <h3 class="section-title">Not Found</h3>
+        <?php
+            if(isset($_GET['gender'])){
+              ?>
+              <h3 class="section-title">Not Found</h3>
+
+              <?php
+            }
+        ?>
 
         @endif
     </div>

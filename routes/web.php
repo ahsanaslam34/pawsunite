@@ -153,7 +153,7 @@ Route::group(['middleware'=>['UserCheckAuth']],function(){
     Route::post('/user_update/{id}', [UserController::class,'update'])->name('user.update');
 
     //User Account
-    Route::get('/myac', [UserController::class,'myAccount']);
+    Route::get('/myac', [UserController::class,'myAccount'])->name('user.myac');
 
     //Orders
     Route::get('orderDetails/{id}',[FrontController::class,'userOrderDetails'])->name('orderDetails.show');

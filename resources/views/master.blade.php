@@ -44,28 +44,30 @@
               <span class="lni-menu"></span>
               <span class="lni-menu"></span>
             </button>
-            <a href="\" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+            <a href="\" class="navbar-brand"><img src="assets/img/logo.png"  alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             
-            <ul class="sign-in">
-              <li class="nav-item dropdown">
+            <ul class="sign-in width-100">
+              <li class="nav-item dropdown float-right">
 
-
+                @if(!Session::has('dogLossProjectUser'))
+                <a class="nav-link" href="login"><i class="lni-lock"></i>Login</a>
+                <a class="nav-link" href="register"><i class="lni-pencil"></i>Sign Up</a>
+                
+                @endif
+                  @if(Session::has('dogLossProjectUser'))
                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lni-user"></i>My Account</a>
 
 
                 <div class="dropdown-menu">
-                  @if(Session::has('dogLossProjectUser'))
-                  <a class="dropdown-item" href="myac"><i class="lni-wallet"></i> My Ads</a>
+                  <a class="dropdown-item" href="myac"><i class="lni-wallet"></i> Dashboard</a>
                 
                   <a class="dropdown-item" href="{{Route('user.logout')}}"><i class="lni-user"></i> Logout</a>
-                  @else
-                  <a class="dropdown-item" href="login"><i class="lni-funnel"></i>Log In</a>
-                  <a class="dropdown-item" href="register"><i class="lni-funnel"></i>Sign up</a>
-                
-                  @endif
+                  
                 </div>
+                  @else
+                  @endif
               </li>
             </ul>
              <a class="tg-btn" href="{{Route('ads.index')}}">
@@ -76,30 +78,16 @@
 
         <!-- Mobile Menu Start -->
         <ul class="mobile-menu">
-          
-         
-          
-         
-          
-          <li>
-            <a>My Account</a>
-            <ul class="dropdown">
-              @if(Session::has('dogLossProjectUser'))
-              <a class="dropdown-item" href="myac"><i class="lni-home"></i> Account Home</a>
-                  <a class="dropdown-item" href="myac"><i class="lni-wallet"></i> My Ads</a>
-                  <a class="dropdown-item" href="{{Route('userAds.active')}}"><i class="lni-bookmark-alt"></i> Active Ads</a>
-                <!--  <a class="dropdown-item" href="featuredads"><i class="lni-star"></i> Featured Ads</a> -->
-                  <a class="dropdown-item" href="{{Route('userAds.pending')}}"><i class="lni-bug"></i> Pending Ads</a>
-                  <a class="dropdown-item" href="{{Route('user.logout')}}"><i class="lni-user"></i> Logout</a>
-              else
-              <li><a href="login"><i class="lni-funnel"></i>Log In</a></li>
-              <li><a href="register"><i class="lni-funnel"></i>Sign up</a></li>
-              @endif
-            </ul>
-          </li>
-        <li>
-             <a href="placead">Post Ad </a>
-        </li>
+            
+        @if(Session::has('dogLossProjectUser'))
+        
+        <li><a href="myac">Dashboard</a></li>
+        <li><a href="{{Route('user.logout')}}">Logout</a></li>    
+        @else
+        <li><a href="login">Log In</a></li>
+        <li><a href="register">Sign up</a></li>
+        @endif
+        <li><a href="adsPost">Post</a></li>
         </ul>
         <!-- Mobile Menu End -->
 

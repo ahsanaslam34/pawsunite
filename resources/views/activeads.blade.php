@@ -12,6 +12,7 @@
                     <li ><a href="myac">All Post ({{count($postArr)}})</a></li>
                     <li class="active"><a href="{{Route('userAds.active')}}">Active ({{count($activeArr)}})</a></li>
               <li><a href="{{Route('userAds.inactive')}}">Inactive ({{count($inactiveArr)}})</a></li>
+                  <a href="{{Route('ads.index')}}" class="btn btn-common float-right">Create Post</a>
                       
                     </ul>
                   </nav>

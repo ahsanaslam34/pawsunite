@@ -9,7 +9,7 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="product-title">User Panel</h2>
+              <h2 class="product-title">Dashboard</h2>
               <ol class="breadcrumb">
                 <li><a href="#">Home /</a></li>
                 <li class="current">My Ads</li>
@@ -31,7 +31,6 @@
               <div class="sidebar-box">
                 <div class="user">
                   <figure>
-                    <a href="#"><img src="assets/img/author/img1.jpg" alt=""></a>
                   </figure>
                   <div class="usercontent">
                     <h3>{{session('dogLossProjectUser')['name']}}'s</h3>
@@ -50,29 +49,18 @@
                       </a>
                     </li> -->
                     <li>
-                      <a href="profile">
+                      <a class="{{ request()->is('profile') ? 'active' : ''}}" href="profile">
                         <i class="lni-cog"></i>
-                        <span>Profile Settings</span>
+                        <span>Profile</span>
                       </a>
                     </li>
                     <li>
-                    <a class="{{ request()->is('myac') ? 'active' : ''}}" href="myac">
+                    <a class="{{ request()->is('myac') ? 'active' : ''}}{{ request()->is('user/ads/active') ? 'active' : ''}}{{ request()->is('user/ads/inactive') ? 'active' : ''}}" href="myac">
                         <i class="lni-layers"></i>
-                        <span>My Post</span>
+                        <span>Post</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="{{ request()->is('user/ads/active') ? 'active' : ''}}" href="{{Route('userAds.active')}}">
-                        <i class="lni-bookmark-alt"></i>
-                        <span>Active Post</span>
-                      </a>
-                    </li>
-                      <li>
-                      <a class="{{ request()->is('user/ads/inactive') ? 'active' : ''}}"  href="{{Route('userAds.inactive')}}">
-                        <i class="lni-star"></i>
-                        <span>Inactive Post</span>
-                      </a>
-                    </li>
+                    
                      
                     
                     <li>
@@ -84,12 +72,12 @@
                   </ul>
                 </nav>
               </div>
-              <div class="widget">
+              <!-- <div class="widget">
                 <h4 class="widget-title">Advertisement</h4>
                 <div class="add-box">
                   <img class="img-fluid" src="assets/img/img1.jpg" alt="">
                 </div>
-              </div>
+              </div> -->
             </aside>
         </div>
 

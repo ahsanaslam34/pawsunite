@@ -4,15 +4,11 @@
 
 
 						<div class="dashboard-box">
-						  <h2 class="dashbord-title">Contact Detail</h2>
+						  <h2 class="dashbord-title">User Details</h2>
 						</div>
                     <form action="{{Route('user.update',[session('dogLossProjectUser')['id']])}}" method="post">
                         @csrf
                                 <div class="dashboard-wrapper">
-                                <div class="form-group mb-6">
-                                    <strong>I’m a:</strong>
-                                    
-                                </div>
                                 <div class="form-group mb-6">
                                     <label class="control-label">Full Name*</label>
                                     <input class="form-control input-md" name="name" type="text" value="{{$user->name}}">

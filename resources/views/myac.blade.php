@@ -14,6 +14,7 @@
                         <li ><a href="{{Route('userAds.active')}}">Active ({{count($activeArr)}})</a></li>
               <li><a href="{{Route('userAds.inactive')}}">Inactive ({{count($inactiveArr)}})</a></li>
                     </ul>
+                  <a href="{{Route('ads.index')}}" class="btn btn-common float-right">Create Post</a>
                   </nav>
                   <table class="table table-responsive dashboardtable tablemyads">
                     <thead>

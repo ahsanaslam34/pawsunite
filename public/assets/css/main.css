@@ -517,9 +517,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0px;
 }
 
-.navbar-brand img {
-  width: 80px;
-}
 
 .top-nav-collapse {
   background: #fff;
@@ -5031,4 +5028,8 @@ footer .menu li a:hover {
     background-color: #e91e63;
     color: #fff;
     padding: 4px 15px;
+}
+
+.width-100{
+    width: 100%;
 }
