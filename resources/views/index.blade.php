@@ -77,7 +77,7 @@
                     </div>
                     </div>
                     </div>
-                    <button class="btn btn-common" type="submit"><i class="lni-search"></i> Search Now</button>
+                    <button class="btn btn-search" type="submit"><i class="lni-search"></i> Search Now</button>
                     </form>
               </div>
             </div>

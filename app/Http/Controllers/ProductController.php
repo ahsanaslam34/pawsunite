@@ -111,8 +111,8 @@ class ProductController extends Controller
         ->select('products.id','products.img','products.pname','units.des as unit','category.des as cat','products.status','products.price','products.created_at','products.price_dollar')
         ->orderBy('products.id','desc')
         ->get();
-        // return $data;
-        return view('admin/productlist')->with('productArr',$product_data);
+        $productArr=product::all();
+        return view('admin/productlist')->with('productArr',$productArr);
     }
 
     /**

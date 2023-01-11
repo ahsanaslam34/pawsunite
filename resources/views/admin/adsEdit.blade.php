@@ -34,7 +34,8 @@
                             <select class="form-select" name="pet_type" id="pet_type">
                                 <option value="Dog">Dog</option>
                                 <option value="Cat">Cat</option>
-                                <option value="Parrot">Parrot</option>
+                                <option value="Bird">Bird</option>
+                                <option value="Others">Others</option>
                             </select>
                             <div class="invalid-feedback">
                                 
@@ -90,8 +91,8 @@
                           </select>
                         </div>
                         <div class="col-md-2">
-                            <label for="validationCustom02" class="form-label">Color</label>
-                            <input class="form-control" name="color" value="{{$postArr->color}}"  placeholder="Color" type="text">
+                            <label for="validationCustom02" class="form-label">Colour</label>
+                            <input class="form-control" name="color" value="{{$postArr->color}}"  placeholder="Colour" type="text">
                             
                         </div>
                         <div class="col-md-2">

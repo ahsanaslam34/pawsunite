@@ -37,27 +37,13 @@
                     </tr>
                     </thead>
                     <tbody>
+                        <?php   
+                            echo count($productArr);
+                         ?>
                         @foreach($productArr as $product)
                             <tr>
-                                <td>{{ $loop->iteration }}</td>
-                                <td><input type="hidden" id="txtid{{$product->id}}" value="{{$product->id}}">{{$product->id}}</td>
-                                <td><img src="assets/img/post/{{$product->img}}" style="width:50px;"></td>
-                                <td><input type="hidden" id="txtdes{{$product->id}}" value="{{$product->pname}}">{{$product->pname}}</td>
-                                <td>{{$product->unit}}</td>
-                                <td>Rs. {{$product->price}}</td>
-                                <td>${{$product->price_dollar}}</td>
-                                <td>{{$product->cat}}</td>
-                                <td>
-                                    @if($product->status==1)
-                                    <span class="badge bg-success">Active</span>
-
-                                    @elseif($product->status==2)
-                                    <span class="badge bg-primary">Inactive</span>
-
-                                    @endif
-
-                                </td>
-                                <td>{{$product->created_at}}</td>
+                                
+                                <td>{{$product->id}}</td>
                                 <td>
 
                                     <div class="d-flex">

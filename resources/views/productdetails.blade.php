@@ -94,13 +94,13 @@
                 <ul>
                   <li><a href="javascript:void(0)"> Type:  <span>{{$productArr->pet_type}}</span></a></li>
                   <li><a href="javascript:void(0)"> Age:  <span>{{$productArr->age}}</span></a></li>
-                  <li><a href="javascript:void(0)"> Color:  <span>{{$productArr->color}}</span></a></li>
+                  <li><a href="javascript:void(0)"> Colour:  <span>{{$productArr->color}}</span></a></li>
                   <li><a href="javascript:void(0)"> Gender:  <span>{{$productArr->gender}}</span></a></li>
                   <li><a href="javascript:void(0)"> Breed:  <span>{{$productArr->breed}}</span></a></li>
                   <li><a href="javascript:void(0)"> Post Code:  <span>{{$productArr->postcode}}</span></a></li>
                   <li><a href="javascript:void(0)"> Status:  <span>{{$productArr->status}}</span></a></li>
                   <li><a href="javascript:void(0)"> Date:  <span>{{$productArr->date_loss}}</span></a></li>
-                  <li><a href="javascript:void(0)"> Where Loss:  <span>{{$productArr->where_loss}}</span></a></li>
+                  <li><a href="javascript:void(0)"> Where Lost:  <span>{{$productArr->where_loss}}</span></a></li>
                   <li><a href="javascript:void(0)"> Region:  <span>{{$productArr->region}}</span></a></li>
                   <li><a href="javascript:void(0)"> Idenfication Marks:  <span>{{$productArr->identification_marks}}</span></a></li>
                   <li><a href="javascript:void(0)"> Tagged:  <span>{{$productArr->tagged}}</span></a></li>

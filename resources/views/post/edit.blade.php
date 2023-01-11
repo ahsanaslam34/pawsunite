@@ -11,10 +11,10 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="product-title">Pet Lost</h2>
+              <h2 class="product-title">Posts</h2>
               <ol class="breadcrumb">
                 <li><a href="javascript:void(0)">Home /</a></li>
-                <li class="current">Pet Lost</li>
+                <li class="current">Posts</li>
 				
               </ol>
             </div>
@@ -52,7 +52,8 @@
                       <select class="form-control" id="pet_type" name="pet_type" required>
                         <option value="Dog">Dog</option>
                         <option value="Cat">Cat</option>
-                        <option value="Parrot">Parrot</option>
+                        <option value="Bird">Bird</option>
+                        <option value="Others">Others</option>
                       </select>
                       
                     </div>
@@ -91,8 +92,8 @@
                       <input class="form-control input-md" name="age" id="age" value="{{$postArr->age}}" placeholder="Age" type="text" required>
                     </div>
                     <div class="form-group mb-3">
-                      <label class="control-label">Color</label>
-                      <input class="form-control input-md" name="color" value="{{$postArr->color}}"  placeholder="Color" type="text" required>
+                      <label class="control-label">Colour</label>
+                      <input class="form-control input-md" name="color" value="{{$postArr->color}}"  placeholder="Colour" type="text" required>
                     </div>
                     <div class="form-group mb-3">
                       <label class="control-label">Where Lost</label>

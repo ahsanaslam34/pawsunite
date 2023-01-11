@@ -5037,3 +5037,11 @@ footer .menu li a:hover {
 img.img-fluid{
   width: 100%;
 }
+
+.btn-search{
+      background: #dc3545;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 22px;
+}
